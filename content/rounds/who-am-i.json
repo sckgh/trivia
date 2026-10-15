@@ -1,0 +1,38 @@
+{
+  "type": "whoami",
+  "title": "Who Am I?",
+  "values": [500, 400, 300, 200, 100],
+  "questions": [
+    {
+      "answer": "Albert Einstein",
+      "clues": [
+        "I was born in Ulm, Germany, in 1879.",
+        "I worked as a clerk in a Swiss patent office.",
+        "I won the 1921 Nobel Prize in Physics for the photoelectric effect.",
+        "My most famous equation involves mass and the speed of light.",
+        "E = mc²"
+      ]
+    },
+    {
+      "answer": "Cleopatra",
+      "clues": [
+        "I was the last active ruler of a dynasty founded by a general of Alexander the Great.",
+        "I spoke many languages and was the first of my dynasty to learn the local tongue.",
+        "I had relationships with two of Rome's most powerful men.",
+        "Legend says I died from the bite of an asp.",
+        "I was Queen of Egypt."
+      ]
+    },
+    {
+      "answer": "Mount Everest",
+      "prompt": "What am I?",
+      "clues": [
+        "I sit on the border of two countries.",
+        "Locals call me Chomolungma or Sagarmatha.",
+        "I was first summited in 1953.",
+        "Tenzing Norgay and Edmund Hillary are famous for reaching my top.",
+        "I am the highest mountain on Earth."
+      ]
+    }
+  ]
+}

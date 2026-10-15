@@ -1,0 +1,9 @@
+{
+  "title": "Quick Game",
+  "subtitle": "One board and a final",
+  "players": [
+    { "name": "Player 1", "color": "#ff4d5e", "key": "1" },
+    { "name": "Player 2", "color": "#3fa9ff", "key": "2" }
+  ],
+  "rounds": ["round1-board", "final"]
+}

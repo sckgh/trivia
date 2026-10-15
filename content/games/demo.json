@@ -1,0 +1,17 @@
+{
+  "title": "Trivia Night",
+  "subtitle": "Fastest finger first!",
+  "players": [
+    { "name": "Red Team", "color": "#ff4d5e", "key": "1" },
+    { "name": "Blue Team", "color": "#3fa9ff", "key": "2" },
+    { "name": "Green Team", "color": "#3ddc84", "key": "3" },
+    { "name": "Gold Team", "color": "#ffc531", "key": "4" }
+  ],
+  "settings": {
+    "buzzSeconds": 10,
+    "answerSeconds": 5,
+    "wrongPenalty": true,
+    "earlyBuzzLockoutMs": 250
+  },
+  "rounds": ["round1-board", "fast-money", "round2-board", "who-am-i", "final"]
+}

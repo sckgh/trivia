@@ -1,0 +1,10 @@
+{
+  "type": "final",
+  "title": "Final Round",
+  "category": "Famous Inventions",
+  "question": {
+    "prompt": "In 1876, he was granted a patent for 'improvement in telegraphy' — better known as the telephone.",
+    "answer": "Alexander Graham Bell",
+    "accept": ["Bell", "Graham Bell"]
+  }
+}

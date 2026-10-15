@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trivia</title>
+    <style>
+      :root { color-scheme: dark; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: radial-gradient(circle at 50% 30%, #1c3aa9, #040824); color: #fff; font-family: system-ui, sans-serif; padding: 16px; box-sizing: border-box; }
+      main { max-width: 520px; width: 100%; text-align: center; }
+      h1 { font-size: clamp(40px, 10vw, 72px); margin: 0 0 8px; color: #ffcc33; letter-spacing: 2px; }
+      p { color: #a9b6ff; }
+      label { display: block; margin: 24px 0 8px; font-weight: 600; }
+      input { font: inherit; font-size: 24px; text-align: center; text-transform: uppercase; padding: 10px; border-radius: 10px; border: 1px solid #2a3577; background: #0006; color: #fff; width: 200px; }
+      .row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 24px; }
+      a { display: inline-block; padding: 16px 28px; border-radius: 12px; background: #3f6bff; color: #fff; font-weight: 700; text-decoration: none; font-size: 20px; }
+      a.display { background: #ffcc33; color: #1a1300; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>TRIVIA</h1>
+      <p>Open the <b>Display</b> on the computer connected to the big screen and the buzzers. Open the <b>Host</b> console on your phone or laptop.</p>
+      <label for="room">Room code</label>
+      <input id="room" value="MAIN" maxlength="16" />
+      <div class="row">
+        <a class="display" id="display" href="/display?room=MAIN">Display</a>
+        <a id="host" href="/host?room=MAIN">Host</a>
+      </div>
+    </main>
+    <script>
+      const room = document.getElementById('room');
+      const update = () => {
+        const r = encodeURIComponent(room.value.toUpperCase().replace(/[^A-Z0-9-]/g, '') || 'MAIN');
+        document.getElementById('display').href = '/display?room=' + r;
+        document.getElementById('host').href = '/host?room=' + r;
+      };
+      room.addEventListener('input', update);
+    </script>
+  </body>
+</html>

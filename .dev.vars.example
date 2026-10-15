@@ -1,0 +1,2 @@
+# Copy to .dev.vars for local development. In production use: npx wrangler secret put HOST_PIN
+HOST_PIN=1234

@@ -1,0 +1,254 @@
+{
+  "type": "board",
+  "title": "Double Round",
+  "categories": [
+    {
+      "name": "History",
+      "questions": [
+        {
+          "value": 200,
+          "prompt": "In which year did the Titanic sink?",
+          "answer": "1912"
+        },
+        {
+          "value": 400,
+          "prompt": "Who was the first person to walk on the Moon?",
+          "answer": "Neil Armstrong",
+          "notes": "Apollo 11, 20 July 1969."
+        },
+        {
+          "value": 600,
+          "prompt": "Which ancient wonder stood in the harbour of Rhodes?",
+          "answer": "The Colossus of Rhodes",
+          "accept": [
+            "Colossus"
+          ]
+        },
+        {
+          "value": 800,
+          "prompt": "Which wall fell in November 1989?",
+          "answer": "The Berlin Wall",
+          "accept": [
+            "Berlin Wall"
+          ]
+        },
+        {
+          "value": 1000,
+          "prompt": "Who was the first woman to win a Nobel Prize?",
+          "answer": "Marie Curie",
+          "notes": "Physics, 1903.",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "name": "Sport",
+      "questions": [
+        {
+          "value": 200,
+          "prompt": "How many players are on the field for one team in a game of soccer?",
+          "answer": "Eleven",
+          "accept": [
+            "11"
+          ]
+        },
+        {
+          "value": 400,
+          "prompt": "In which sport would you perform a 'slam dunk'?",
+          "answer": "Basketball"
+        },
+        {
+          "value": 600,
+          "prompt": "Which country hosted the 2016 Summer Olympics?",
+          "answer": "Brazil",
+          "notes": "Rio de Janeiro."
+        },
+        {
+          "value": 800,
+          "prompt": "What is the maximum break in snooker?",
+          "answer": "147"
+        },
+        {
+          "value": 1000,
+          "prompt": "Which tennis Grand Slam is played on clay?",
+          "answer": "The French Open",
+          "accept": [
+            "Roland Garros",
+            "French Open"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Food & Drink",
+      "questions": [
+        {
+          "value": 200,
+          "prompt": "What is the main ingredient in guacamole?",
+          "answer": "Avocado"
+        },
+        {
+          "value": 400,
+          "prompt": "Which country is the origin of the dish paella?",
+          "answer": "Spain",
+          "notes": "Valencia."
+        },
+        {
+          "value": 600,
+          "prompt": "What type of pastry is used to make profiteroles?",
+          "answer": "Choux pastry",
+          "accept": [
+            "Choux"
+          ]
+        },
+        {
+          "value": 800,
+          "prompt": "Which spice is the most expensive by weight?",
+          "answer": "Saffron"
+        },
+        {
+          "value": 1000,
+          "prompt": "What nut is used to make marzipan?",
+          "answer": "Almond",
+          "accept": [
+            "Almonds"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Picture This",
+      "questions": [
+        {
+          "value": 200,
+          "prompt": "What is this symbol?",
+          "answer": "The Olympic rings",
+          "accept": [
+            "Olympics"
+          ],
+          "media": {
+            "type": "image",
+            "src": "picture/olympic-rings.svg",
+            "reveal": "zoom",
+            "steps": 4
+          }
+        },
+        {
+          "value": 400,
+          "prompt": "Name this puzzle toy",
+          "answer": "Rubik's Cube",
+          "notes": "This one is the 2×2 'Pocket Cube'.",
+          "media": {
+            "type": "image",
+            "src": "picture/rubiks.svg",
+            "reveal": "blur",
+            "steps": 3
+          }
+        },
+        {
+          "value": 600,
+          "prompt": "Which country's flag is this?",
+          "answer": "Brazil",
+          "media": {
+            "type": "image",
+            "src": "geography/flag-brazil.svg",
+            "reveal": "zoom"
+          }
+        },
+        {
+          "value": 800,
+          "prompt": "Which planet is this?",
+          "answer": "Saturn",
+          "media": {
+            "type": "image",
+            "src": "science/saturn.svg",
+            "reveal": "blur",
+            "steps": 5
+          }
+        },
+        {
+          "value": 1000,
+          "prompt": "Which country's flag is this?",
+          "answer": "Canada",
+          "media": {
+            "type": "image",
+            "src": "geography/flag-canada.svg",
+            "reveal": "zoom",
+            "steps": 5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "questions": [
+        {
+          "value": 200,
+          "prompt": "What is the closest star to Earth?",
+          "answer": "The Sun",
+          "accept": [
+            "Sun"
+          ]
+        },
+        {
+          "value": 400,
+          "prompt": "Which planet is known as the Red Planet?",
+          "answer": "Mars"
+        },
+        {
+          "value": 600,
+          "prompt": "What is the largest planet in our Solar System?",
+          "answer": "Jupiter"
+        },
+        {
+          "value": 800,
+          "prompt": "What is the name of the galaxy that contains our Solar System?",
+          "answer": "The Milky Way",
+          "accept": [
+            "Milky Way"
+          ]
+        },
+        {
+          "value": 1000,
+          "prompt": "Roughly how long does light from the Sun take to reach Earth?",
+          "answer": "About 8 minutes",
+          "accept": [
+            "8 minutes",
+            "8 min 20 s"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Local Legends",
+      "questions": [
+        {
+          "value": 200,
+          "prompt": "Replace this with a question about your town, office or friends!",
+          "answer": "Your answer here",
+          "notes": "Edit content/rounds/round2-board.json"
+        },
+        {
+          "value": 400,
+          "prompt": "Who in this room has been here the longest?",
+          "answer": "(Your answer)"
+        },
+        {
+          "value": 600,
+          "prompt": "What year did our venue open?",
+          "answer": "(Your answer)"
+        },
+        {
+          "value": 800,
+          "prompt": "Name the local sports team's mascot",
+          "answer": "(Your answer)"
+        },
+        {
+          "value": 1000,
+          "prompt": "Your hardest in-joke goes here",
+          "answer": "(Your answer)"
+        }
+      ]
+    }
+  ]
+}

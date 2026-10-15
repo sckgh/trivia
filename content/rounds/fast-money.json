@@ -1,0 +1,17 @@
+{
+  "type": "fast",
+  "title": "Fast Money",
+  "value": 100,
+  "questions": [
+    { "prompt": "What is 7 × 8?", "answer": "56" },
+    { "prompt": "Which animal is known as the 'ship of the desert'?", "answer": "Camel" },
+    { "prompt": "How many sides does a hexagon have?", "answer": "Six", "accept": ["6"] },
+    { "prompt": "What is the capital of Italy?", "answer": "Rome" },
+    { "prompt": "What is frozen water called?", "answer": "Ice" },
+    { "prompt": "Who painted the Mona Lisa?", "answer": "Leonardo da Vinci", "accept": ["Da Vinci", "Leonardo"] },
+    { "prompt": "What is the largest ocean on Earth?", "answer": "The Pacific", "accept": ["Pacific"] },
+    { "prompt": "How many minutes are in two hours?", "answer": "120" },
+    { "prompt": "Which bird is the national symbol of the USA?", "answer": "Bald eagle", "accept": ["Eagle"] },
+    { "prompt": "What is the opposite of 'ancient'?", "answer": "Modern", "accept": ["New"] }
+  ]
+}

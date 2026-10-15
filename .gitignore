@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+src/generated/
+*.log
+.DS_Store
+e2e-shots/

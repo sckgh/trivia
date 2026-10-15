@@ -1,0 +1,260 @@
+{
+  "type": "board",
+  "title": "Round 1",
+  "categories": [
+    {
+      "name": "General Knowledge",
+      "questions": [
+        {
+          "value": 100,
+          "prompt": "How many days are there in a leap year?",
+          "answer": "366"
+        },
+        {
+          "value": 200,
+          "prompt": "What is the only letter that doesn't appear in any US state name?",
+          "answer": "Q"
+        },
+        {
+          "value": 300,
+          "prompt": "What colour is the 'black box' flight recorder on a plane actually painted?",
+          "answer": "Orange",
+          "accept": [
+            "Bright orange"
+          ]
+        },
+        {
+          "value": 400,
+          "prompt": "In Roman numerals, what number is represented by the letter M?",
+          "answer": "1000",
+          "accept": [
+            "One thousand"
+          ]
+        },
+        {
+          "value": 500,
+          "prompt": "What is the name for a group of crows?",
+          "answer": "A murder",
+          "accept": [
+            "Murder"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Science & Nature",
+      "questions": [
+        {
+          "value": 100,
+          "prompt": "What gas do plants absorb from the air to photosynthesise?",
+          "answer": "Carbon dioxide",
+          "accept": [
+            "CO2"
+          ]
+        },
+        {
+          "value": 200,
+          "prompt": "Which planet is this?",
+          "answer": "Saturn",
+          "media": {
+            "type": "image",
+            "src": "science/saturn.svg",
+            "alt": "A ringed planet"
+          }
+        },
+        {
+          "value": 300,
+          "prompt": "What is the chemical symbol for gold?",
+          "answer": "Au",
+          "notes": "From the Latin 'aurum'."
+        },
+        {
+          "value": 400,
+          "prompt": "How many hearts does an octopus have?",
+          "answer": "Three",
+          "accept": [
+            "3"
+          ]
+        },
+        {
+          "value": 500,
+          "prompt": "What is the hardest natural substance on Earth?",
+          "answer": "Diamond",
+          "dailyDouble": true
+        }
+      ]
+    },
+    {
+      "name": "Geography",
+      "questions": [
+        {
+          "value": 100,
+          "prompt": "Which country does this flag belong to?",
+          "answer": "Japan",
+          "media": {
+            "type": "image",
+            "src": "geography/flag-japan.svg"
+          }
+        },
+        {
+          "value": 200,
+          "prompt": "What is the capital city of Australia?",
+          "answer": "Canberra",
+          "notes": "Not Sydney!"
+        },
+        {
+          "value": 300,
+          "prompt": "Which country does this flag belong to?",
+          "answer": "Canada",
+          "media": {
+            "type": "image",
+            "src": "geography/flag-canada.svg"
+          }
+        },
+        {
+          "value": 400,
+          "prompt": "What is the longest river in South America?",
+          "answer": "The Amazon",
+          "accept": [
+            "Amazon"
+          ]
+        },
+        {
+          "value": 500,
+          "prompt": "Which country has the most natural lakes?",
+          "answer": "Canada",
+          "notes": "Over half the world's natural lakes."
+        }
+      ]
+    },
+    {
+      "name": "Name That Tune",
+      "questions": [
+        {
+          "value": 100,
+          "prompt": "Name this classical piece",
+          "answer": "Ode to Joy",
+          "accept": [
+            "Beethoven's 9th",
+            "Symphony No. 9"
+          ],
+          "notes": "Beethoven, Symphony No. 9 (1824)",
+          "media": {
+            "type": "audio",
+            "src": "music/ode-to-joy.mp3"
+          }
+        },
+        {
+          "value": 200,
+          "prompt": "Name this piano piece",
+          "answer": "Für Elise",
+          "notes": "Beethoven, c. 1810",
+          "media": {
+            "type": "audio",
+            "src": "music/fur-elise.mp3"
+          }
+        },
+        {
+          "value": 300,
+          "prompt": "Which band released the album 'Abbey Road' in 1969?",
+          "answer": "The Beatles",
+          "accept": [
+            "Beatles"
+          ]
+        },
+        {
+          "value": 400,
+          "prompt": "Which singer is known as the 'Queen of Pop'?",
+          "answer": "Madonna"
+        },
+        {
+          "value": 500,
+          "prompt": "How many strings does a standard violin have?",
+          "answer": "Four",
+          "accept": [
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Screen Time",
+      "questions": [
+        {
+          "value": 100,
+          "prompt": "In 'The Wizard of Oz', what colour are Dorothy's slippers?",
+          "answer": "Ruby red",
+          "accept": [
+            "Red",
+            "Ruby"
+          ]
+        },
+        {
+          "value": 200,
+          "prompt": "This countdown traditionally appeared at the start of what?",
+          "answer": "A film reel (film leader)",
+          "accept": [
+            "Film leader",
+            "Academy leader",
+            "Movie reel"
+          ],
+          "media": {
+            "type": "video",
+            "src": "screen/countdown.mp4",
+            "start": 0,
+            "end": 6
+          }
+        },
+        {
+          "value": 300,
+          "prompt": "What is the name of the coffee shop in 'Friends'?",
+          "answer": "Central Perk"
+        },
+        {
+          "value": 400,
+          "prompt": "Which film won the first ever Academy Award for Best Picture?",
+          "answer": "Wings",
+          "notes": "1927–28 ceremony."
+        },
+        {
+          "value": 500,
+          "prompt": "In 'Breaking Bad', what subject does Walter White teach?",
+          "answer": "Chemistry"
+        }
+      ]
+    },
+    {
+      "name": "Wordplay",
+      "questions": [
+        {
+          "value": 100,
+          "prompt": "Unscramble this fruit: NANABA",
+          "answer": "Banana"
+        },
+        {
+          "value": 200,
+          "prompt": "What 5-letter word becomes shorter when you add two letters to it?",
+          "answer": "Short"
+        },
+        {
+          "value": 300,
+          "prompt": "In Cockney rhyming slang, what does 'apples and pears' mean?",
+          "answer": "Stairs"
+        },
+        {
+          "value": 400,
+          "prompt": "Unscramble this country: LAITY",
+          "answer": "Italy"
+        },
+        {
+          "value": 500,
+          "prompt": "What do you call a word that reads the same backwards as forwards, like 'racecar'?",
+          "answer": "A palindrome",
+          "accept": [
+            "Palindrome"
+          ]
+        }
+      ]
+    }
+  ]
+}
